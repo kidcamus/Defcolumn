@@ -1,0 +1,67 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Creator - Defcolumn</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-box">
+            <img class="profile-picture" src="/images/pfp.png" alt="Your Name">
+            <h1 class="username">@defcabforcj</h1>
+            <p class="tagline">just some dude :p</p>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="about-box">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-text">
+                Into art of all kind, friendship, culture, strange images, animals, lovely faces, my little sister, fireworks, small tech, 
+                that feeling you get when you get a great idea, science, nerdy shit, and the occasional toke.
+            </p>
+            <p class="about-text">
+                Currently being developed with great care!
+            </p>
+        </div>
+
+        <section class="music-box">
+            <h2 class="music-title">A Song That Describes Me</h2>
+          
+            <!-- Song Title and Artist -->
+            <div class="song-info">
+            <h3 class="song-title">The Voidz</h3>
+            <p class="song-name">Leave it in My Dreams</p>
+            </div>
+        
+            <!-- Album Art -->
+            <div class="album-art-container">
+                <img src="/images/Virtue.png" alt="Album Art" class="album-art">
+            </div>
+        
+            <!-- Custom Audio Player -->
+            <div class="custom-audio-player">
+                <!-- Play/Pause Button -->
+                <button class="play-pause-btn" id="playPauseBtn">
+                    <span class="play-icon">▶</span> <!-- Play icon (triangle) -->
+                    <span class="pause-icon">■</span> <!-- Pause icon (square) -->
+                </button>
+        
+                <!-- Progress Bar -->
+                <input type="range" id="progressBar" class="progress-bar" value="0" max="100">
+        
+                <!-- Audio Element -->
+                <audio id="audio" src="/mainpage/audio/The Voidz - Leave It In My Dreams.mp3"></audio>
+            </div>
+            <script src="/mainpage/music-player.js"></script>
+
+        </section>
+        
+    
+        </div>
+    </div>
+</body>
+</html>
